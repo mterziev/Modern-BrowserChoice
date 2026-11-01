@@ -1,158 +1,254 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Information Regarding Web Browsers</title>
-<style type="text/css">
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: #7BBCE0;
-        color: #000000;
-        margin: 0;
-        padding: 20px;
-        text-align: center;
-    }
-    #layout {
-        width: 980px;
-        margin: 0 auto;
-        text-align: left;
-        background-color: #CDEBF9;
-        border: 2px solid #3B7FA9;
-        padding: 20px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
-    h1 {
-        font-size: 18px;
-        color: #002B54;
-        margin-top: 0;
-        margin-bottom: 15px;
-        font-weight: bold;
-    }
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        border: 1px solid #7BBCE0;
-        margin-bottom: 15px;
-        background-color: #ffffff;
-    }
-    th, td {
-        padding: 8px 6px;
-        text-align: center;
-        vertical-align: top;
-        font-size: 11px;
-        width: 10%;
-        border: 1px solid #9FD1EE;
-    }
-    th {
-        background-color: #EBF7FC;
-        color: #002B54;
-    }
-    th img {
-        width: 48px;
-        height: 48px;
-        border: none;
-        display: block;
-        margin: 0 auto 5px auto;
-        object-fit: contain;
-    }
-    td {
-        color: #333333;
-        line-height: 1.3em;
-    }
-    .browserTableLink {
-        margin-top: 8px;
-    }
-    .browserTableLink a {
-        color: #0055A5;
-        text-decoration: underline;
-        font-weight: bold;
-    }
-    .browserTableLink a:hover {
-        color: #001A33;
-    }
-    #content {
-        margin-top: 15px;
-        border-top: 1px solid #7BBCE0;
-        padding-top: 10px;
-        font-size: 11px;
-    }
-    #content a {
-        color: #0055A5;
-        text-decoration: underline;
-    }
-</style>
+    <meta charset="utf-8">
+    <title>Information Regarding Web Browsers</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #7BBCE0;
+            color: #000000;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #layout {
+            width: 980px;
+            margin: 0 auto;
+            text-align: left;
+            background-color: #CDEBF9;
+            border: 2px solid #3B7FA9;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 18px;
+            color: #002B54;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #7BBCE0;
+            margin-bottom: 15px;
+            background-color: #ffffff;
+        }
+
+        th,
+        td {
+            padding: 8px 6px;
+            text-align: center;
+            vertical-align: top;
+            font-size: 11px;
+            width: 10%;
+            border: 1px solid #9FD1EE;
+        }
+
+        th {
+            background-color: #EBF7FC;
+            color: #002B54;
+        }
+
+        th img {
+            width: 48px;
+            height: 48px;
+            border: none;
+            display: block;
+            margin: 0 auto 5px auto;
+            object-fit: contain;
+        }
+
+        td {
+            color: #333333;
+            line-height: 1.3em;
+        }
+
+        .browserTableLink {
+            margin-top: 8px;
+        }
+
+        .browserTableLink a {
+            color: #0055A5;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .browserTableLink a:hover {
+            color: #001A33;
+        }
+
+        #content {
+            margin-top: 15px;
+            border-top: 1px solid #7BBCE0;
+            padding-top: 10px;
+            font-size: 11px;
+        }
+
+        #content a {
+            color: #0055A5;
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
 
-<div id="layout">
-    <h1 id="heading">Select your web browser(s)</h1>
-    
-    <div id="browsers">
-        <table summary="Select your web browser(s)">
-        <tbody>
-            <!-- Row 1: Icons / Names -->
-            <tr>
-                <th><img alt="Google Chrome" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg"><br>Google Chrome</th>
-                <th><img alt="Microsoft Edge" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Microsoft_Edge_logo_%282019%29.svg"><br>Microsoft Edge</th>
-                <th><img alt="Mozilla Firefox" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg"><br>Mozilla Firefox</th>
-                <th><img alt="Brave" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Brave_icon_lionface.png"><br>Brave</th>
-                <th><img alt="Opera" src="https://upload.wikimedia.org/wikipedia/commons/4/49/Opera_2015_icon.svg"><br>Opera</th>
-                <th><img alt="Vivaldi" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Vivaldi_web_browser_logo.svg"><br>Vivaldi</th>
-                <th><img alt="Zen Browser" src="https://www.google.com/s2/favicons?domain=zen-browser.app&sz=64"><br>Zen Browser</th>
-                <th><img alt="DuckDuckGo" src="https://upload.wikimedia.org/wikipedia/en/1/15/DuckDuckGo_logo_post-2023.svg"><br>DuckDuckGo</th>
-                <th><img alt="LibreWolf" src="https://upload.wikimedia.org/wikipedia/commons/d/d0/LibreWolf_icon.svg"><br>LibreWolf</th>
-                <th><img alt="Tor Browser" src="https://upload.wikimedia.org/wikipedia/commons/d/df/Tor_Browser_icon_%28New%29.png"><br>Tor Browser</th>
-            </tr>
-            
-            <!-- Row 2: Descriptions -->
-            <tr>
-                <td>A fast, secure, and popular browser built by Google.</td>
-                <td>The built-in Windows browser featuring vertical tabs and AI tools.</td>
-                <td>An independent browser focused on privacy, user control, and the open web.</td>
-                <td>A privacy-first browser that automatically blocks ads and trackers.</td>
-                <td>Feature-rich browser offering built-in workspaces and messaging sidebars.</td>
-                <td>Highly customizable browser built for power users with advanced tab management.</td>
-                <td>An open-source, vertical-tab browser focused on simplicity and custom workspaces.</td>
-                <td>Clean, private desktop browser with built-in tracker protection.</td>
-                <td>A privacy-focused and security-hardened fork of Firefox.</td>
-                <td>Protects your privacy by routing traffic through a distributed network.</td>
-            </tr>
-            
-            <!-- Row 3: Direct Download / Install Links -->
-            <tr>
-                <td><div class="browserTableLink"><a target="_blank" href="https://www.google.com/chrome/download/">Install</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://www.microsoft.com/edge/download">Install</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://www.mozilla.org/firefox/new/">Install</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://brave.com/download/">Install</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://www.opera.com/download">Install</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://vivaldi.com/download/">Install</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://zen-browser.app/download">Install</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://duckduckgo.com/windows">Install</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://librewolf.net/installation/windows/">Install</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://www.torproject.org/download/">Install</a></div></td>
-            </tr>
-            
-            <!-- Row 4: Information / Features Links -->
-            <tr>
-                <td><div class="browserTableLink"><a target="_blank" href="https://www.google.com/chrome/features/">Tell me more</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://www.microsoft.com/edge/features">Tell me more</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://www.mozilla.org/firefox/features/">Tell me more</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://brave.com/features/">Tell me more</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://www.opera.com/features">Tell me more</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://vivaldi.com/features/">Tell me more</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://zen-browser.app/">Tell me more</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://duckduckgo.com/about">Tell me more</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://librewolf.net/">Tell me more</a></div></td>
-                <td><div class="browserTableLink"><a target="_blank" href="https://www.torproject.org/about/history/">Tell me more</a></div></td>
-            </tr>
-        </tbody>
-        </table>
-    </div>
+    <div id="layout">
+        <h1 id="heading">Select your web browser(s)</h1>
 
-    <div id="content">
-        <p><a href="privacy.html">Further information, Terms of use and Privacy statement.</a></p>
+        <div id="browsers">
+            <table summary="Select your web browser(s)">
+                <tbody>
+                    <!-- Row 1: Icons / Names -->
+                    <tr>
+                        <th><img alt="Google Chrome"
+                                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg"><br>Google
+                            Chrome</th>
+                        <th><img alt="Microsoft Edge"
+                                src="https://upload.wikimedia.org/wikipedia/commons/9/98/Microsoft_Edge_logo_%282019%29.svg"><br>Microsoft
+                            Edge</th>
+                        <th><img alt="Mozilla Firefox"
+                                src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg"><br>Mozilla
+                            Firefox</th>
+                        <th><img alt="Brave"
+                                src="https://upload.wikimedia.org/wikipedia/commons/5/51/Brave_icon_lionface.png"><br>Brave
+                        </th>
+                        <th><img alt="Opera"
+                                src="https://upload.wikimedia.org/wikipedia/commons/4/49/Opera_2015_icon.svg"><br>Opera
+                        </th>
+                        <th><img alt="Vivaldi"
+                                src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Vivaldi_web_browser_logo.svg"><br>Vivaldi
+                        </th>
+                        <th><img alt="Zen Browser"
+                                src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Zen_Browser_logo_%28red_circles%29.svg"><br>Zen Browser
+                        </th>
+                        <th><img alt="DuckDuckGo"
+                                src="https://upload.wikimedia.org/wikipedia/en/1/15/DuckDuckGo_logo_post-2023.svg"><br>DuckDuckGo
+                        </th>
+                        <th><img alt="LibreWolf"
+                                src="https://upload.wikimedia.org/wikipedia/commons/d/d0/LibreWolf_icon.svg"><br>LibreWolf
+                        </th>
+                        <th><img alt="Tor Browser"
+                                src="https://upload.wikimedia.org/wikipedia/commons/d/df/Tor_Browser_icon_%28New%29.png"><br>Tor
+                            Browser</th>
+                    </tr>
+
+                    <!-- Row 2: Descriptions -->
+                    <tr>
+                        <td>A fast, secure, and popular browser built by Google.</td>
+                        <td>The built-in Windows browser featuring vertical tabs and AI tools.</td>
+                        <td>An independent browser focused on privacy, user control, and the open web.</td>
+                        <td>A privacy-first browser that automatically blocks ads and trackers.</td>
+                        <td>Feature-rich browser offering built-in workspaces and messaging sidebars.</td>
+                        <td>Highly customizable browser built for power users with advanced tab management.</td>
+                        <td>An open-source, vertical-tab browser focused on simplicity and custom workspaces.</td>
+                        <td>Clean, private desktop browser with built-in tracker protection.</td>
+                        <td>A privacy-focused and security-hardened fork of Firefox.</td>
+                        <td>Protects your privacy by routing traffic through a distributed network.</td>
+                    </tr>
+
+                    <!-- Row 3: Direct Download / Install Links -->
+                    <tr>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://www.google.com/chrome/">Install</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://www.microsoft.com/edge/download">Install</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://www.mozilla.org/firefox/new/">Install</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://brave.com/download/">Install</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://www.opera.com/download">Install</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://vivaldi.com/download/">Install</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://zen-browser.app/download">Install</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://duckduckgo.com/windows">Install</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://librewolf.net/installation/windows/">Install</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://www.torproject.org/download/">Install</a></div>
+                        </td>
+                    </tr>
+
+                    <!-- Row 4: Information / Features Links -->
+                    <tr>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://www.google.com/chrome/">Tell me more</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://www.microsoft.com/edge/features">Tell me more</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://www.mozilla.org/firefox/features/">Tell me more</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank" href="https://brave.com/features/">Tell me
+                                    more</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank" href="https://www.opera.com/features">Tell
+                                    me more</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank" href="https://vivaldi.com/features/">Tell
+                                    me more</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank" href="https://zen-browser.app/">Tell me
+                                    more</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank" href="https://duckduckgo.com/about">Tell me
+                                    more</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank" href="https://librewolf.net/">Tell me
+                                    more</a></div>
+                        </td>
+                        <td>
+                            <div class="browserTableLink"><a target="_blank"
+                                    href="https://www.torproject.org/about/history/">Tell me more</a></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="content">
+            <p><a href="privacy.html">Further information, Terms of use and Privacy statement.</a></p>
+        </div>
     </div>
-</div>
 
 </body>
+
 </html>
